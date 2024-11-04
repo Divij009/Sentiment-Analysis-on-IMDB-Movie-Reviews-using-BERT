@@ -17,7 +17,7 @@ Understanding sentiment in text data is crucial for various applications, includ
 ## Key Features
 - **Pre-trained BERT Model**: Utilizes a powerful pre-trained model to enhance sentiment classification accuracy.
 - **High Accuracy**: Achieved an accuracy of **0.89** and an F1 score of **0.89** on the test dataset.
-- **Visualization**: Includes precision-recall curves to evaluate model performance.
+- **Visualization**: Includes confusion matrix to evaluate model performance.
 - **Easy Setup**: Simple instructions for cloning the repository and running the analysis in Jupyter Notebook or Google Colab.
 - **Detailed Documentation**: Clear guidance on how to use and contribute to the project.
 
@@ -31,19 +31,18 @@ To get started with the project, follow these steps:
 2. **Install Required Libraries**: 
    Make sure to have Python installed, and then install the necessary packages:
    pip install -r requirements.txt
-   *Note: You can also install the required libraries directly in your Google Colab environment.*
 
 3. **Run the Jupyter Notebook**: 
    Open the Jupyter notebook file (e.g., sentiment_analysis.ipynb) in your preferred environment, such as Jupyter Notebook or Google Colab, and follow the instructions provided in the notebook to execute the sentiment analysis.
 
 4. **Results**: 
-   After running the notebook, you will see the model's accuracy, which is **0.89**, and the F1 score, also **0.89**, indicating robust performance in sentiment classification.
+   After running the notebook, you will see the model's accuracy, which is **0.89**, indicating robust performance in sentiment classification.
 
 ## Getting Help
 For any questions or issues regarding the project, please open an issue on the repository, and I will be happy to assist. You can also check the Hugging Face documentation for more information on using the Transformers library.
 
 ## Maintainers and Contributors
-This project is maintained by [Your Name]. Contributions are welcome! If you would like to contribute, please fork the repository, make your changes, and submit a pull request. 
+This project is maintained by Divij Joshi, Viraj Patil, Yash Yadav, and Rohit Wani. Contributions are welcome! If you would like to contribute, please fork the repository, make your changes, and submit a pull request. 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
